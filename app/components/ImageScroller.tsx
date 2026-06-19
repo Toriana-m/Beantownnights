@@ -2,12 +2,8 @@ import Image from 'next/image';
 
 // Example image dataset
 const IMAGES = [
-    { id: 1, src: '/one.jpeg', alt: 'one' },
-    { id: 2, src: '/two.jpeg', alt: '2' },
-    { id: 3, src: '/WhatsApp Image 2026-06-04 at 3.00.13 PM.jpeg', alt: '3' },
-    { id: 4, src: '/WhatsApp Image 2026-06-04 at 3.00.17 PM.jpeg', alt: '4' },
-    { id: 5, src: '/WhatsApp Image 2026-06-04 at 11.22.37 AM.jpeg', alt: '5' },
-    { id:6, src: '/WhatsApp Image 2026-06-04 at 11.22.46 AM.jpeg', alt:'6'}
+    { id: 1, src: '/onne.jpeg', alt: 'one' },
+    { id: 2, src: '/twwo.jpeg', alt: '2' },
 ];
 
 export default function ImageScroller() {
