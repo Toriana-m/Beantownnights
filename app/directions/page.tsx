@@ -34,16 +34,13 @@ export default function directionsPage(){
                     <div className="h-24" />
 
                     <p className="text-[#00e5ff]">
-                        Click the link below, click on the event you want, then use Toriana Mullins as the
-                        ambassador! Then submit, easy peasy!
+                        Click the link below, and click on the event you want! Then submit, easy peasy!
                     </p>
 
                     <div className="h-8" />
 
                     <a
-                        href="https://your-ticket-link.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="http://tinyurl.com/freetixtm"
                         className={`${space.className} inline-block mt-4 rounded-full bg-[#00e5ff] text-[#1a0933] px-8 py-4 font-bold hover:bg-[#e60067] hover:text-white transition`}
                     >
                         Get Tickets Here

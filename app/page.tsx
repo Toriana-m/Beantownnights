@@ -23,10 +23,10 @@ const space = Space_Grotesk({
 export default function Home() {
   return (
       <main className="min-h-screen bg-[#1a0933] text-[#e60067] px-6 py-10 flex-col items-center justify-center">
-        <h1 className={`${space} text-[#00e5ff] mt-4 text-6xl uppercase leading-none text-center`}>
+        <h1 className={`${bebas.className} text-[#00e5ff] mt-4 text-8xl uppercase leading-none text-center`}>
           What's the move tonight?
         </h1>
-        <p className={`${space.className} mt-2 text-[#e60067] text-center`}>
+        <p className={`${bebas.className} mt-2 text-[#e60067] text-2xl text-center`}>
           We've got your plans covered
         </p>
         <section className="text-center border border-white/20 rounded-3xl p-8 mt-4bg-white/5 shadow-2xl">
@@ -59,10 +59,10 @@ export default function Home() {
             </a>
 
             <a
-                href="#"
+                href="https://www.instagram.com/beantownnightstm/"
                 className={`${space.className} block rounded-full border border-white/30 py-3 text-sm uppercase tracking-widest hover:bg-white/10 transition`}
             >
-              Event Flyers
+              Updates!
             </a>
           </div>
 
