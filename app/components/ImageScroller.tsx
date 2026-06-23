@@ -2,8 +2,19 @@ import Image from 'next/image';
 
 // Example image dataset
 const IMAGES = [
-    { id: 1, src: '/onne.jpeg', alt: 'one' },
-    { id: 2, src: '/twwo.jpeg', alt: '2' },
+    { id: 1, src: '/1.jpeg', alt: 'one' },
+    { id: 2, src: '/2.jpeg', alt: '2' },
+    { id: 3, src: '/three.jpeg', alt: 'three' },
+    { id: 4, src: '/four.jpeg', alt: 'four' },
+    { id: 5, src: '/5.jpeg', alt: 'five' },
+    { id: 6, src: '/6.jpeg', alt: 'six' },
+    { id: 7, src: '/7.jpeg', alt: 'seven' },
+    { id: 8, src: '/8.jpeg', alt: 'eight' },
+    { id: 9, src: '/9.jpeg', alt: 'nine' },
+    { id: 10, src: '/10.jpeg', alt: 'ten' },
+    { id: 11, src: '/11.jpeg', alt: 'eleven' },
+    { id: 12, src: '/12.jpeg', alt: 'twelve' },
+    { id: 13, src: '/13.jpeg', alt: 'thirteen' },
 ];
 
 export default function ImageScroller() {
